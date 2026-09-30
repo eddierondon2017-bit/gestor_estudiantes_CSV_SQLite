@@ -1,5 +1,5 @@
 import csv
-    def generar_csv(nombre_archivo: str = "estudiantes.csv") -> None:
+def generar_csv(nombre_archivo: str = "estudiantes.csv") -> None:
     """Genera un archivo CSV con datos iniciales."""
     datos = [
             

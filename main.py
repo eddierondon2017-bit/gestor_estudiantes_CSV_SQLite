@@ -7,10 +7,10 @@ CSV_FILE = "estudiantes.csv"
 DB_FILE = "estudiantes.db"
 if __name__ == "__main__":
     if not Path(CSV_FILE).exists():
-    generar_csv(CSV_FILE)
-    crear_base(DB_FILE)
-    importar_datos(CSV_FILE, DB_FILE)
-    consultar_estudiantes(
-    umbral=4.0,
-    nombre_bd=DB_FILE
-    )
+        generar_csv(CSV_FILE)
+        crear_base(DB_FILE)
+        importar_datos(CSV_FILE, DB_FILE)
+        consultar_estudiantes(
+        umbral=4.0,
+        nombre_bd=DB_FILE
+        )
